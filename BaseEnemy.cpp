@@ -32,7 +32,7 @@ void BaseEnemy::Update() {
 
 	// キャラクターの移動速度
 	const float kCharacterSpeed = 0.2f;
-	move.x -= kCharacterSpeed;
+	move.y -= kCharacterSpeed;
 
 //	if (gameScene_.timer <= 100) {
 //

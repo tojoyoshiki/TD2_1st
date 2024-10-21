@@ -30,9 +30,8 @@ void GameScene::Initialze() {
 		for (uint32_t i = 0; i < 300; i++) {
 
 			baseEnemy_ = new BaseEnemy();
-			baseEnemy_->Initialize(model_, textureHandle_, {(float)i * 18, -12, 0}, &camera_);
+			baseEnemy_->Initialize(model_, textureHandle_, {(float)i * 18, 20, 0}, &camera_);
 			enemies_.push_back(baseEnemy_);
-
 			
 		}
 	}
